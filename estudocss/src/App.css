@@ -1,0 +1,37 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.conteudo
+{
+
+}
+
+h1
+{
+    color: white;
+    background-color: rgb(51, 56, 142);
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+li
+{
+    color: rgb(92, 96, 181)
+}
+
+img
+{
+    width: 500px;
+    border: 3px solid rgb(92, 96, 181);
+    border-radius: 10px
+}
+
+.centro
+{
+    text-align: center;
+}
+
