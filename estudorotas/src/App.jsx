@@ -16,6 +16,16 @@ import  MatoGrosso from "./Paginas/MatoGrosso";
 import  DistritoFederal from "./Paginas/DistritoFederal";
 import  Goias from "./Paginas/Goias";
 
+import Acre from "./Paginas/Acre";
+import Amapá from "./Paginas/Amapa";
+import Amazonas from "./Paginas/Amazonas";
+import Pará from "./Paginas/Para";
+import Rondonia from "./Paginas/Rondonia";
+import Roraima from "./Paginas/Roraima";
+import Tocantins from "./Paginas/Tocantins";
+import Amapa from "./Paginas/Amapa";
+import Para from "./Paginas/Para";
+
 export default function App()
 {
     return (
@@ -35,6 +45,14 @@ export default function App()
                 <Route path="/mt" element={<MatoGrosso/>}/>
                 <Route path="/df" element={<DistritoFederal/>}/>
                 <Route path="/go" element={<Goias/>}/>
+
+                <Route path="/ac" element={<Acre/>}/>
+                <Route path="/am" element={<Amapá/>}/>
+                <Route path="/az" element={<Amazonas/>}/>
+                <Route path="/pa" element={<Para/>}/>
+                <Route path="/ro" element={<Rondonia/>}/>
+                <Route path="/rr" element={<Roraima/>}/>
+                <Route path="/to" element={<Tocantins/>}/>
             </Routes>
         </BrowserRouter>
     );

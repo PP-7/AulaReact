@@ -32,6 +32,17 @@ export default function Home()
     
             </ul>
 
+            <h3>Estados da Região Norte</h3>
+
+            <ul>
+                <li><a href="/ac">Acre</a></li>
+                <li><a href="/am">Amapá</a></li>
+                <li><a href="/az">Amazonas</a></li>
+                <li><a href="/pa">Pará</a></li>
+                <li><a href="/ro">Rondônia</a></li>
+                <li><a href="/rr">Roraima</a></li>
+                <li><a href="/to">Tocantins</a></li>
+            </ul>
             
         </div>
     )
