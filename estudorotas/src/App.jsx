@@ -23,8 +23,20 @@ import Pará from "./Paginas/Para";
 import Rondonia from "./Paginas/Rondonia";
 import Roraima from "./Paginas/Roraima";
 import Tocantins from "./Paginas/Tocantins";
-import Amapa from "./Paginas/Amapa";
-import Para from "./Paginas/Para";
+
+import Alagoas from "./Paginas/Alagoas";
+import Bahia from "./Paginas/Bahia";
+import Ceará from "./Paginas/Ceara";
+import Maranhão from "./Paginas/Maranhao";
+import Paraíba from "./Paginas/Paraiba";
+import Pernambuco from "./Paginas/Pernanbuco";
+import Piauí from "./Paginas/Piaui";
+import RioGrandeNorte from "./Paginas/RioGrandeNorte";
+import Sergipe from "./Paginas/sergipe";
+
+
+
+
 
 export default function App()
 {
@@ -49,10 +61,20 @@ export default function App()
                 <Route path="/ac" element={<Acre/>}/>
                 <Route path="/am" element={<Amapá/>}/>
                 <Route path="/az" element={<Amazonas/>}/>
-                <Route path="/pa" element={<Para/>}/>
+                <Route path="/pa" element={<Pará/>}/>
                 <Route path="/ro" element={<Rondonia/>}/>
                 <Route path="/rr" element={<Roraima/>}/>
                 <Route path="/to" element={<Tocantins/>}/>
+
+                <Route path="/al" element={<Alagoas/>}/>
+                <Route path="/ba" element={<Bahia/>}/>
+                <Route path="/ce" element={<Ceará/>}/>
+                <Route path="/ma" element={<Maranhão/>}/>
+                <Route path="/pb" element={<Paraíba/>}/>
+                <Route path="/pe" element={<Pernambuco/>}/>
+                <Route path="/pi" element={<Piauí/>}/>
+                <Route path="/rn" element={<RioGrandeNorte/>}/>
+                <Route path="/se" element={<Sergipe/>}/>
             </Routes>
         </BrowserRouter>
     );

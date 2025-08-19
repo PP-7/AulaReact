@@ -1,14 +1,16 @@
 body
 {
-margin: 0;
+margin: 2;
 padding: 0;
+background-color: rgb(190, 245, 255);
+
 }
 
 h1
 {
-    background-color:rgb(173, 65, 195);
+    background-color:rgb(69, 67, 201);
     color:aliceblue;
-    margin: 0;
+    margin: ;
     padding: 30px;
     text-align: center;
 }
