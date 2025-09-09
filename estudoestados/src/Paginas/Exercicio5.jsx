@@ -1,21 +1,21 @@
-export default function Exercicio2()
+export default function Exercicio5()
 {
     return(
         <div className="conteudo">
 
-        <h1>Exercício 2</h1>
+        <h1>Exercício 5</h1>
 
         <div>
 
             <form>
 
                 <p>
-                    Digite a temperatura em grau Fahrenheit:<br/>
+                    Digite o valor do lado:<br/>
                     <input type="text"/>
                 </p>
 
                 <p>
-                    <input type="button" value="Exercício 2"/>
+                    <input type="button" value="Exercício 4"/>
                 </p>
 
                 <p>
