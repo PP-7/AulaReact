@@ -1,5 +1,23 @@
+import {useState} from "react";
+
+
 export default function Exercicio1()
 {
+
+    const [numero, setNumero] = useState(0);
+    const [resultado, setResultado] = useState(0);
+
+  function caulcular()
+  {
+    let quadrado, cubo;
+
+    quadrado = Number(numero) * Number(numero);
+    cubo = Number(numero) * Number(numero) * Number(numero);
+
+    setResultado("QUADRADO: "+ quadrado +"  -  CUBO: "+ cubo);
+  }
+
+
     return(
         <div className="conteudo">
 
@@ -13,11 +31,19 @@ export default function Exercicio1()
 
                     <p>
                         Digite um número qualquer:<br/>
-                        <input type="text"/>
+                        <input type="text" value={numero} 
+                        onChange={(e) => setNumero (e.target.value)}/>
                     </p>
 
                     <p>
-                        <input type="button" value="Exercício 1"/>
+                        <input type="button" value="Exercício 1" onClick={caulcular}/>
+                    </p>
+
+                    <p>
+                    <b>Resultado:</b>
+                    <br/>
+                    Numero é: {numero}<br/>
+                    Resultado é {resultado}    
                     </p>
 
                     <p>
